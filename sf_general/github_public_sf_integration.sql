@@ -1,7 +1,13 @@
 /*
 To integrate a GitHub public repository with Snowflake, we need to create two Snowflake objects
 1. API Integration object
-2. Git Repository clone object
+2. Database object (DB and schema that will host the repository clone)
+3. Git Repository clone object
+
+To access the GitHub SF Cloene from the Snoflake UI,
+- Catalon/DB/Schema/Git Repository clone
+- For SQL Files, Copy Into worksheet 
+
 
 The API Integration object specifies the allowed URL prefixes for the Git server.
 Since it's a public repository, no credentials are included in the integration.
